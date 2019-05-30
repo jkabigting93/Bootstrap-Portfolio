@@ -69,8 +69,18 @@ p {
     height: 200px
 }
 
+.thumbnail {
+    position: relative;
+}
+
 .carousel-caption {
     background-color: #4aaaa5;
+    position: absolute;
+    top: 45%;
+    left: 15px;
     width: 300px;
-    padding-left: 0;
+}
+
+.PortfolioCaptionLink {
+    color: white;
 }
