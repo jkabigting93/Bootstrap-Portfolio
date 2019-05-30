@@ -34,7 +34,8 @@ h1 {
     background-color: white;
     border-bottom: 2px solid lightgrey;
     padding-bottom: 15px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    padding-left: 0;
 }
 
 .AboutMePic {
@@ -51,4 +52,25 @@ p {
     color: white;
     background-color: #777777;
     border-top: 10px solid #4aaaa5;
+}
+
+.ContactContainer {
+    margin-bottom: 100px;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    font-size: 13px;
+    padding: 12px 20px 12px 20px;
+}
+
+.PortfolioPics {
+    width: 300px;
+    height: 200px
+}
+
+.carousel-caption {
+    background-color: #4aaaa5;
+    width: 300px;
+    padding-left: 0;
 }

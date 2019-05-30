@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <Title>Bootstrap Portfolio</Title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+</head>
+<body>
+
+<!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><h1>Joey Kabigting</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container ContactContainer">
+      
+<!-- Content Header -->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="ContentTitle">Contact</h1>
+            </div>
+        </div>
+
+<!-- Content -->
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                        <label for="Form-Name">Name</label>
+                        <input type="name" class="form-control" id="Form-Name" aria-describedby="emailHelp" placeholder="Your name...">
+                    </div>
+                    <div class="form-group">
+                        <label for="Form-Email">Email</label>
+                        <input type="email" class="form-control" id="Form-Email" aria-describedby="emailHelp" placeholder="Your email...">
+                    </div>
+                    <div class="form-group">
+                        <label for="Form-Message">Message</label>
+                        <textarea type="message" class="form-control TallForm" id="Form-Message" placeholder="Your message here..." rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+<!-- Sticky Footer -->
+  <footer class="page-footer">
+    <div class="footer-copyright text-center py-3 fixed-bottom">
+      Copyright ©
+    </div>
+  </footer>
+  
+</body>
+</html>
