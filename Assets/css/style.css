@@ -6,6 +6,11 @@ body {
 
 nav {
     border-bottom: 2px solid lightgrey;
+
+}
+
+.navbar {
+    padding: 0 150px 0 150px;
 }
 
 h1 {
@@ -13,6 +18,8 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     background-color: #4aaaa5;
+    padding: 30px;
+    margin-bottom: 0;
 }
 
 .container {
@@ -38,4 +45,10 @@ h1 {
 
 p {
     line-height: 30px;
+}
+
+.footer-copyright {
+    color: white;
+    background-color: #777777;
+    border-top: 10px solid #4aaaa5;
 }
